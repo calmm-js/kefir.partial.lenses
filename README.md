@@ -1,6 +1,6 @@
 # <a id="kefir-partial-lenses"></a> Kefir Partial Lenses &middot; [![Gitter](https://img.shields.io/gitter/room/calmm-js/chat.js.svg)](https://gitter.im/calmm-js/chat) [![GitHub stars](https://img.shields.io/github/stars/calmm-js/kefir.partial.lenses.svg?style=social)](https://github.com/calmm-js/kefir.partial.lenses)
 
-[Partial Lenses](https://github.com/calmm-js/partial.lenses//) functions lifted
+[Partial Lenses](https://github.com/calmm-js/partial.lenses/) functions lifted
 to work on [Kefir](https://kefirjs.github.io/kefir/) properties.
 
 [![npm version](https://badge.fury.io/js/kefir.partial.lenses.svg)](http://badge.fury.io/js/kefir.partial.lenses)

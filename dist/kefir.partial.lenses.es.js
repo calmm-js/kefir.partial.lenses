@@ -1,5 +1,7 @@
-import { Constant, Identity, all, and, any, append, array, assign, assignOp, branch, branchOr, branches, chain, children, choice, choices, choose, collect, collectAs, complement, compose, concat, concatAs, cond, condOf, count, countIf, counts, countsAs, defaults, define, elems, entries, filter, find, findWith, first, flat, flatten, foldTraversalLens, foldl, foldr, forEach, forEachWith, get, getInverse, identity, ifElse, iftes, index, indexed, inverse, is, isDefined, isEmpty, iso, join, joinAs, json, keyed, keys, last, lazy, leafs, lens, log, matches, maximum, maximumBy, mean, meanAs, minimum, minimumBy, modify, modifyOp, none, normalize, optional, or, orElse, pick, pickIn, pointer, prefix, product, productAs, prop, props, propsOf, query, removable, remove, removeOp, replace, required, reread, reverse, rewrite, satisfying, seemsArrayLike, select, selectAs, seq, set, setOp, setter, singleton, slice, suffix, sum, sumAs, toFunction, transform, traverse, unless, uri, uriComponent, valueOr, values, when, zero } from 'partial.lenses';
+import { Constant, Identity, all, and, any, append, array, assign, assignOp, branch, branchOr, branches, chain, children, choice, choices, choose, collect, collectAs, complement, compose, concat, concatAs, cond, condOf, count, countIf, counts, countsAs, defaults, define, dropPrefix, dropSuffix, elems, entries, filter, find, findWith, first, flat, flatten, foldTraversalLens, foldl, foldr, forEach, forEachWith, get, getInverse, identity, ifElse, iftes, index, indexed, inverse, is, isDefined, isEmpty, iso, join, joinAs, json, keyed, keys, last, lazy, leafs, lens, log, matches, maximum, maximumBy, mean, meanAs, minimum, minimumBy, modify, modifyOp, none, normalize, optional, or, orElse, pick, pickIn, pointer, prefix, product, productAs, prop, props, propsOf, query, removable, remove, removeOp, replace, replaces, required, reread, reverse, rewrite, satisfying, seemsArrayLike, select, selectAs, seq, set, setOp, setter, singleton, slice, split, suffix, sum, sumAs, toFunction, transform, traverse, uncouple, unless, uri, uriComponent, valueOr, values, when, zero } from 'partial.lenses';
 import { liftRec } from 'kefir.combines';
+
+// THIS FILE IS GENERATED
 
 var Constant$1 = /*#__PURE__*/liftRec(Constant);
 var Identity$1 = /*#__PURE__*/liftRec(Identity);
@@ -32,6 +34,8 @@ var counts$1 = /*#__PURE__*/liftRec(counts);
 var countsAs$1 = /*#__PURE__*/liftRec(countsAs);
 var defaults$1 = /*#__PURE__*/liftRec(defaults);
 var define$1 = /*#__PURE__*/liftRec(define);
+var dropPrefix$1 = /*#__PURE__*/liftRec(dropPrefix);
+var dropSuffix$1 = /*#__PURE__*/liftRec(dropSuffix);
 var elems$1 = /*#__PURE__*/liftRec(elems);
 var entries$1 = /*#__PURE__*/liftRec(entries);
 var filter$1 = /*#__PURE__*/liftRec(filter);
@@ -95,6 +99,7 @@ var removable$1 = /*#__PURE__*/liftRec(removable);
 var remove$1 = /*#__PURE__*/liftRec(remove);
 var removeOp$1 = /*#__PURE__*/liftRec(removeOp);
 var replace$1 = /*#__PURE__*/liftRec(replace);
+var replaces$1 = /*#__PURE__*/liftRec(replaces);
 var required$1 = /*#__PURE__*/liftRec(required);
 var reread$1 = /*#__PURE__*/liftRec(reread);
 var reverse$1 = /*#__PURE__*/liftRec(reverse);
@@ -109,12 +114,14 @@ var setOp$1 = /*#__PURE__*/liftRec(setOp);
 var setter$1 = /*#__PURE__*/liftRec(setter);
 var singleton$1 = /*#__PURE__*/liftRec(singleton);
 var slice$1 = /*#__PURE__*/liftRec(slice);
+var split$1 = /*#__PURE__*/liftRec(split);
 var suffix$1 = /*#__PURE__*/liftRec(suffix);
 var sum$1 = /*#__PURE__*/liftRec(sum);
 var sumAs$1 = /*#__PURE__*/liftRec(sumAs);
 var toFunction$1 = /*#__PURE__*/liftRec(toFunction);
 var transform$1 = /*#__PURE__*/liftRec(transform);
 var traverse$1 = /*#__PURE__*/liftRec(traverse);
+var uncouple$1 = /*#__PURE__*/liftRec(uncouple);
 var unless$1 = /*#__PURE__*/liftRec(unless);
 var uri$1 = /*#__PURE__*/liftRec(uri);
 var uriComponent$1 = /*#__PURE__*/liftRec(uriComponent);
@@ -123,4 +130,4 @@ var values$1 = /*#__PURE__*/liftRec(values);
 var when$1 = /*#__PURE__*/liftRec(when);
 var zero$1 = /*#__PURE__*/liftRec(zero);
 
-export { Constant$1 as Constant, Identity$1 as Identity, all$1 as all, and$1 as and, any$1 as any, append$1 as append, array$1 as array, assign$1 as assign, assignOp$1 as assignOp, branch$1 as branch, branchOr$1 as branchOr, branches$1 as branches, chain$1 as chain, children$1 as children, choice$1 as choice, choices$1 as choices, choose$1 as choose, collect$1 as collect, collectAs$1 as collectAs, complement$1 as complement, compose$1 as compose, concat$1 as concat, concatAs$1 as concatAs, cond$1 as cond, condOf$1 as condOf, count$1 as count, countIf$1 as countIf, counts$1 as counts, countsAs$1 as countsAs, defaults$1 as defaults, define$1 as define, elems$1 as elems, entries$1 as entries, filter$1 as filter, find$1 as find, findWith$1 as findWith, first$1 as first, flat$1 as flat, flatten$1 as flatten, foldTraversalLens$1 as foldTraversalLens, foldl$1 as foldl, foldr$1 as foldr, forEach$1 as forEach, forEachWith$1 as forEachWith, get$1 as get, getInverse$1 as getInverse, identity$1 as identity, ifElse$1 as ifElse, iftes$1 as iftes, index$1 as index, indexed$1 as indexed, inverse$1 as inverse, is$1 as is, isDefined$1 as isDefined, isEmpty$1 as isEmpty, iso$1 as iso, join$1 as join, joinAs$1 as joinAs, json$1 as json, keyed$1 as keyed, keys$1 as keys, last$1 as last, lazy$1 as lazy, leafs$1 as leafs, lens$1 as lens, log$1 as log, matches$1 as matches, maximum$1 as maximum, maximumBy$1 as maximumBy, mean$1 as mean, meanAs$1 as meanAs, minimum$1 as minimum, minimumBy$1 as minimumBy, modify$1 as modify, modifyOp$1 as modifyOp, none$1 as none, normalize$1 as normalize, optional$1 as optional, or$1 as or, orElse$1 as orElse, pick$1 as pick, pickIn$1 as pickIn, pointer$1 as pointer, prefix$1 as prefix, product$1 as product, productAs$1 as productAs, prop$1 as prop, props$1 as props, propsOf$1 as propsOf, query$1 as query, removable$1 as removable, remove$1 as remove, removeOp$1 as removeOp, replace$1 as replace, required$1 as required, reread$1 as reread, reverse$1 as reverse, rewrite$1 as rewrite, satisfying$1 as satisfying, seemsArrayLike$1 as seemsArrayLike, select$1 as select, selectAs$1 as selectAs, seq$1 as seq, set$1 as set, setOp$1 as setOp, setter$1 as setter, singleton$1 as singleton, slice$1 as slice, suffix$1 as suffix, sum$1 as sum, sumAs$1 as sumAs, toFunction$1 as toFunction, transform$1 as transform, traverse$1 as traverse, unless$1 as unless, uri$1 as uri, uriComponent$1 as uriComponent, valueOr$1 as valueOr, values$1 as values, when$1 as when, zero$1 as zero };
+export { Constant$1 as Constant, Identity$1 as Identity, all$1 as all, and$1 as and, any$1 as any, append$1 as append, array$1 as array, assign$1 as assign, assignOp$1 as assignOp, branch$1 as branch, branchOr$1 as branchOr, branches$1 as branches, chain$1 as chain, children$1 as children, choice$1 as choice, choices$1 as choices, choose$1 as choose, collect$1 as collect, collectAs$1 as collectAs, complement$1 as complement, compose$1 as compose, concat$1 as concat, concatAs$1 as concatAs, cond$1 as cond, condOf$1 as condOf, count$1 as count, countIf$1 as countIf, counts$1 as counts, countsAs$1 as countsAs, defaults$1 as defaults, define$1 as define, dropPrefix$1 as dropPrefix, dropSuffix$1 as dropSuffix, elems$1 as elems, entries$1 as entries, filter$1 as filter, find$1 as find, findWith$1 as findWith, first$1 as first, flat$1 as flat, flatten$1 as flatten, foldTraversalLens$1 as foldTraversalLens, foldl$1 as foldl, foldr$1 as foldr, forEach$1 as forEach, forEachWith$1 as forEachWith, get$1 as get, getInverse$1 as getInverse, identity$1 as identity, ifElse$1 as ifElse, iftes$1 as iftes, index$1 as index, indexed$1 as indexed, inverse$1 as inverse, is$1 as is, isDefined$1 as isDefined, isEmpty$1 as isEmpty, iso$1 as iso, join$1 as join, joinAs$1 as joinAs, json$1 as json, keyed$1 as keyed, keys$1 as keys, last$1 as last, lazy$1 as lazy, leafs$1 as leafs, lens$1 as lens, log$1 as log, matches$1 as matches, maximum$1 as maximum, maximumBy$1 as maximumBy, mean$1 as mean, meanAs$1 as meanAs, minimum$1 as minimum, minimumBy$1 as minimumBy, modify$1 as modify, modifyOp$1 as modifyOp, none$1 as none, normalize$1 as normalize, optional$1 as optional, or$1 as or, orElse$1 as orElse, pick$1 as pick, pickIn$1 as pickIn, pointer$1 as pointer, prefix$1 as prefix, product$1 as product, productAs$1 as productAs, prop$1 as prop, props$1 as props, propsOf$1 as propsOf, query$1 as query, removable$1 as removable, remove$1 as remove, removeOp$1 as removeOp, replace$1 as replace, replaces$1 as replaces, required$1 as required, reread$1 as reread, reverse$1 as reverse, rewrite$1 as rewrite, satisfying$1 as satisfying, seemsArrayLike$1 as seemsArrayLike, select$1 as select, selectAs$1 as selectAs, seq$1 as seq, set$1 as set, setOp$1 as setOp, setter$1 as setter, singleton$1 as singleton, slice$1 as slice, split$1 as split, suffix$1 as suffix, sum$1 as sum, sumAs$1 as sumAs, toFunction$1 as toFunction, transform$1 as transform, traverse$1 as traverse, uncouple$1 as uncouple, unless$1 as unless, uri$1 as uri, uriComponent$1 as uriComponent, valueOr$1 as valueOr, values$1 as values, when$1 as when, zero$1 as zero };

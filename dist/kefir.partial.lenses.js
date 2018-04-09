@@ -4,6 +4,8 @@
 	(factory((global.Kefir = global.Kefir || {}, global.Kefir.partial = global.Kefir.partial || {}, global.Kefir.partial.lenses = {}),global.partial.lenses,global.kefir.combines));
 }(this, (function (exports,L,kefir_combines) { 'use strict';
 
+	// THIS FILE IS GENERATED
+
 	var Constant = /*#__PURE__*/kefir_combines.liftRec(L.Constant);
 	var Identity = /*#__PURE__*/kefir_combines.liftRec(L.Identity);
 	var all = /*#__PURE__*/kefir_combines.liftRec(L.all);
@@ -35,6 +37,8 @@
 	var countsAs = /*#__PURE__*/kefir_combines.liftRec(L.countsAs);
 	var defaults = /*#__PURE__*/kefir_combines.liftRec(L.defaults);
 	var define = /*#__PURE__*/kefir_combines.liftRec(L.define);
+	var dropPrefix = /*#__PURE__*/kefir_combines.liftRec(L.dropPrefix);
+	var dropSuffix = /*#__PURE__*/kefir_combines.liftRec(L.dropSuffix);
 	var elems = /*#__PURE__*/kefir_combines.liftRec(L.elems);
 	var entries = /*#__PURE__*/kefir_combines.liftRec(L.entries);
 	var filter = /*#__PURE__*/kefir_combines.liftRec(L.filter);
@@ -98,6 +102,7 @@
 	var remove = /*#__PURE__*/kefir_combines.liftRec(L.remove);
 	var removeOp = /*#__PURE__*/kefir_combines.liftRec(L.removeOp);
 	var replace = /*#__PURE__*/kefir_combines.liftRec(L.replace);
+	var replaces = /*#__PURE__*/kefir_combines.liftRec(L.replaces);
 	var required = /*#__PURE__*/kefir_combines.liftRec(L.required);
 	var reread = /*#__PURE__*/kefir_combines.liftRec(L.reread);
 	var reverse = /*#__PURE__*/kefir_combines.liftRec(L.reverse);
@@ -112,12 +117,14 @@
 	var setter = /*#__PURE__*/kefir_combines.liftRec(L.setter);
 	var singleton = /*#__PURE__*/kefir_combines.liftRec(L.singleton);
 	var slice = /*#__PURE__*/kefir_combines.liftRec(L.slice);
+	var split = /*#__PURE__*/kefir_combines.liftRec(L.split);
 	var suffix = /*#__PURE__*/kefir_combines.liftRec(L.suffix);
 	var sum = /*#__PURE__*/kefir_combines.liftRec(L.sum);
 	var sumAs = /*#__PURE__*/kefir_combines.liftRec(L.sumAs);
 	var toFunction = /*#__PURE__*/kefir_combines.liftRec(L.toFunction);
 	var transform = /*#__PURE__*/kefir_combines.liftRec(L.transform);
 	var traverse = /*#__PURE__*/kefir_combines.liftRec(L.traverse);
+	var uncouple = /*#__PURE__*/kefir_combines.liftRec(L.uncouple);
 	var unless = /*#__PURE__*/kefir_combines.liftRec(L.unless);
 	var uri = /*#__PURE__*/kefir_combines.liftRec(L.uri);
 	var uriComponent = /*#__PURE__*/kefir_combines.liftRec(L.uriComponent);
@@ -157,6 +164,8 @@
 	exports.countsAs = countsAs;
 	exports.defaults = defaults;
 	exports.define = define;
+	exports.dropPrefix = dropPrefix;
+	exports.dropSuffix = dropSuffix;
 	exports.elems = elems;
 	exports.entries = entries;
 	exports.filter = filter;
@@ -220,6 +229,7 @@
 	exports.remove = remove;
 	exports.removeOp = removeOp;
 	exports.replace = replace;
+	exports.replaces = replaces;
 	exports.required = required;
 	exports.reread = reread;
 	exports.reverse = reverse;
@@ -234,12 +244,14 @@
 	exports.setter = setter;
 	exports.singleton = singleton;
 	exports.slice = slice;
+	exports.split = split;
 	exports.suffix = suffix;
 	exports.sum = sum;
 	exports.sumAs = sumAs;
 	exports.toFunction = toFunction;
 	exports.transform = transform;
 	exports.traverse = traverse;
+	exports.uncouple = uncouple;
 	exports.unless = unless;
 	exports.uri = uri;
 	exports.uriComponent = uriComponent;
