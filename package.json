@@ -1,6 +1,6 @@
 {
   "name": "kefir.partial.lenses",
-  "version": "13.8.0",
+  "version": "13.8.1",
   "description": "Partial Lenses functions lifted to work on Kefir properties",
   "module": "dist/kefir.partial.lenses.es.js",
   "main": "dist/kefir.partial.lenses.cjs.js",
@@ -11,8 +11,7 @@
     "dist:umd": "    NODE_ENV=dev        rollup -c -n kefir.partial.lenses -i src/kefir.partial.lenses.js -f umd -o dist/kefir.partial.lenses.js",
     "dist:umd.min": "NODE_ENV=production rollup -c -n kefir.partial.lenses -i src/kefir.partial.lenses.js -f umd -o dist/kefir.partial.lenses.min.js",
     "lint": "eslint src test",
-    "postinstall": "node scripts/generate.js",
-    "prepare": "npm run lint && npm run dist && npm run test",
+    "prepare": "node scripts/generate.js && npm run lint && npm run dist && npm run test",
     "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "test": "nyc mocha",
     "watch": "concurrently \"npm run watch:dist\" \"npm run watch:test\"",
