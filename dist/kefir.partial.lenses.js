@@ -8,6 +8,7 @@
 
 	var Constant = /*#__PURE__*/kefir_combines.liftRec(L.Constant);
 	var Identity = /*#__PURE__*/kefir_combines.liftRec(L.Identity);
+	var add = /*#__PURE__*/kefir_combines.liftRec(L.add);
 	var all = /*#__PURE__*/kefir_combines.liftRec(L.all);
 	var and = /*#__PURE__*/kefir_combines.liftRec(L.and);
 	var any = /*#__PURE__*/kefir_combines.liftRec(L.any);
@@ -37,6 +38,7 @@
 	var countsAs = /*#__PURE__*/kefir_combines.liftRec(L.countsAs);
 	var defaults = /*#__PURE__*/kefir_combines.liftRec(L.defaults);
 	var define = /*#__PURE__*/kefir_combines.liftRec(L.define);
+	var divide = /*#__PURE__*/kefir_combines.liftRec(L.divide);
 	var dropPrefix = /*#__PURE__*/kefir_combines.liftRec(L.dropPrefix);
 	var dropSuffix = /*#__PURE__*/kefir_combines.liftRec(L.dropSuffix);
 	var elems = /*#__PURE__*/kefir_combines.liftRec(L.elems);
@@ -83,6 +85,8 @@
 	var minimumBy = /*#__PURE__*/kefir_combines.liftRec(L.minimumBy);
 	var modify = /*#__PURE__*/kefir_combines.liftRec(L.modify);
 	var modifyOp = /*#__PURE__*/kefir_combines.liftRec(L.modifyOp);
+	var multiply = /*#__PURE__*/kefir_combines.liftRec(L.multiply);
+	var negate = /*#__PURE__*/kefir_combines.liftRec(L.negate);
 	var none = /*#__PURE__*/kefir_combines.liftRec(L.none);
 	var normalize = /*#__PURE__*/kefir_combines.liftRec(L.normalize);
 	var optional = /*#__PURE__*/kefir_combines.liftRec(L.optional);
@@ -118,6 +122,7 @@
 	var singleton = /*#__PURE__*/kefir_combines.liftRec(L.singleton);
 	var slice = /*#__PURE__*/kefir_combines.liftRec(L.slice);
 	var split = /*#__PURE__*/kefir_combines.liftRec(L.split);
+	var subtract = /*#__PURE__*/kefir_combines.liftRec(L.subtract);
 	var suffix = /*#__PURE__*/kefir_combines.liftRec(L.suffix);
 	var sum = /*#__PURE__*/kefir_combines.liftRec(L.sum);
 	var sumAs = /*#__PURE__*/kefir_combines.liftRec(L.sumAs);
@@ -135,6 +140,7 @@
 
 	exports.Constant = Constant;
 	exports.Identity = Identity;
+	exports.add = add;
 	exports.all = all;
 	exports.and = and;
 	exports.any = any;
@@ -164,6 +170,7 @@
 	exports.countsAs = countsAs;
 	exports.defaults = defaults;
 	exports.define = define;
+	exports.divide = divide;
 	exports.dropPrefix = dropPrefix;
 	exports.dropSuffix = dropSuffix;
 	exports.elems = elems;
@@ -210,6 +217,8 @@
 	exports.minimumBy = minimumBy;
 	exports.modify = modify;
 	exports.modifyOp = modifyOp;
+	exports.multiply = multiply;
+	exports.negate = negate;
 	exports.none = none;
 	exports.normalize = normalize;
 	exports.optional = optional;
@@ -245,6 +254,7 @@
 	exports.singleton = singleton;
 	exports.slice = slice;
 	exports.split = split;
+	exports.subtract = subtract;
 	exports.suffix = suffix;
 	exports.sum = sum;
 	exports.sumAs = sumAs;

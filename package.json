@@ -1,6 +1,6 @@
 {
   "name": "kefir.partial.lenses",
-  "version": "13.8.1",
+  "version": "13.9.0",
   "description": "Partial Lenses functions lifted to work on Kefir properties",
   "module": "dist/kefir.partial.lenses.es.js",
   "main": "dist/kefir.partial.lenses.cjs.js",
@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "kefir.combines": "^4.3.0",
-    "partial.lenses": "^13.8.0"
+    "partial.lenses": "^13.9.0"
   },
   "peerDependencies": {
     "kefir": "^3.7.0"
