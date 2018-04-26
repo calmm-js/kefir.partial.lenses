@@ -4,10 +4,10 @@ import replace from 'rollup-plugin-replace'
 import uglify from 'rollup-plugin-uglify'
 
 const globals = {
+  'karet.lift': 'karet.lift',
+  'partial.lenses': 'partial.lenses',
   infestines: 'I',
-  kefir: 'Kefir',
-  'kefir.combines': 'kefir.combines',
-  'partial.lenses': 'partial.lenses'
+  kefir: 'Kefir'
 }
 
 const build = ({NODE_ENV, format, suffix}) => ({
