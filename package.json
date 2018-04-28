@@ -4,6 +4,7 @@
   "description": "Partial Lenses functions lifted to work on Kefir properties",
   "module": "dist/kefir.partial.lenses.es.js",
   "main": "dist/kefir.partial.lenses.cjs.js",
+  "sideEffects": false,
   "scripts": {
     "dist": "rollup -c",
     "lint": "eslint src test",
