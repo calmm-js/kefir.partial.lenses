@@ -22,7 +22,6 @@ const toExpr = f =>
     .replace(/\s*;?\s*}\s*$/, '')
     .replace(/function\s*(\([a-zA-Z]*\))\s*/g, '$1 => ')
     .replace(/{\s*return\s*([^{;]+)\s*;\s*}/g, '$1')
-    .replace(/{\s*return\s*([^{;]+)\s*;\s*}/g, '$1')
     .replace(/\(0, _kefir.constant\)/g, 'C')
 
 const testEq = (expect, thunk) =>
