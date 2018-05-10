@@ -1,6 +1,6 @@
 {
   "name": "kefir.partial.lenses",
-  "version": "13.11.1-alpha.0",
+  "version": "13.11.1",
   "description": "Partial Lenses functions lifted to work on Kefir properties",
   "module": "dist/kefir.partial.lenses.es.js",
   "main": "dist/kefir.partial.lenses.cjs.js",
