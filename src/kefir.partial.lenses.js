@@ -3,13 +3,13 @@
 import * as L from 'partial.lenses'
 import * as K from 'karet.lift'
 
-export const Constant = K.lift(L.Constant)
-export const Identity = K.lift(L.Identity)
+export {Constant} from 'partial.lenses'
+export {Identity} from 'partial.lenses'
 export const add = K.lift(L.add)
 export const all = K.lift(L.all)
 export const and = K.lift(L.and)
 export const any = K.lift(L.any)
-export const append = K.lift(L.append)
+export {append} from 'partial.lenses'
 export const array = K.lift(L.array)
 export const assign = K.lift(L.assign)
 export const assignOp = K.lift(L.assignOp)
@@ -17,13 +17,13 @@ export const branch = K.lift(L.branch)
 export const branchOr = K.lift(L.branchOr)
 export const branches = K.lift(L.branches)
 export const chain = K.lift(L.chain)
-export const children = K.lift(L.children)
+export {children} from 'partial.lenses'
 export const choice = K.lift(L.choice)
 export const choices = K.lift(L.choices)
 export const choose = K.lift(L.choose)
 export const collect = K.lift(L.collect)
 export const collectAs = K.lift(L.collectAs)
-export const complement = K.lift(L.complement)
+export {complement} from 'partial.lenses'
 export const compose = K.lift(L.compose)
 export const concat = K.lift(L.concat)
 export const concatAs = K.lift(L.concatAs)
@@ -38,15 +38,15 @@ export const define = K.lift(L.define)
 export const divide = K.lift(L.divide)
 export const dropPrefix = K.lift(L.dropPrefix)
 export const dropSuffix = K.lift(L.dropSuffix)
-export const elems = K.lift(L.elems)
-export const elemsTotal = K.lift(L.elemsTotal)
-export const entries = K.lift(L.entries)
+export {elems} from 'partial.lenses'
+export {elemsTotal} from 'partial.lenses'
+export {entries} from 'partial.lenses'
 export const filter = K.lift(L.filter)
 export const find = K.lift(L.find)
 export const findWith = K.lift(L.findWith)
-export const first = K.lift(L.first)
+export {first} from 'partial.lenses'
 export const flat = K.lift(L.flat)
-export const flatten = K.lift(L.flatten)
+export {flatten} from 'partial.lenses'
 export const foldTraversalLens = K.lift(L.foldTraversalLens)
 export const foldl = K.lift(L.foldl)
 export const foldr = K.lift(L.foldr)
@@ -54,11 +54,11 @@ export const forEach = K.lift(L.forEach)
 export const forEachWith = K.lift(L.forEachWith)
 export const get = K.lift(L.get)
 export const getInverse = K.lift(L.getInverse)
-export const identity = K.lift(L.identity)
+export {identity} from 'partial.lenses'
 export const ifElse = K.lift(L.ifElse)
 export const iftes = K.lift(L.iftes)
 export const index = K.lift(L.index)
-export const indexed = K.lift(L.indexed)
+export {indexed} from 'partial.lenses'
 export const inverse = K.lift(L.inverse)
 export const is = K.lift(L.is)
 export const isDefined = K.lift(L.isDefined)
@@ -67,11 +67,11 @@ export const iso = K.lift(L.iso)
 export const join = K.lift(L.join)
 export const joinAs = K.lift(L.joinAs)
 export const json = K.lift(L.json)
-export const keyed = K.lift(L.keyed)
-export const keys = K.lift(L.keys)
-export const last = K.lift(L.last)
+export {keyed} from 'partial.lenses'
+export {keys} from 'partial.lenses'
+export {last} from 'partial.lenses'
 export const lazy = K.lift(L.lazy)
-export const leafs = K.lift(L.leafs)
+export {leafs} from 'partial.lenses'
 export const lens = K.lift(L.lens)
 export const log = K.lift(L.log)
 export const matches = K.lift(L.matches)
@@ -84,10 +84,10 @@ export const minimumBy = K.lift(L.minimumBy)
 export const modify = K.lift(L.modify)
 export const modifyOp = K.lift(L.modifyOp)
 export const multiply = K.lift(L.multiply)
-export const negate = K.lift(L.negate)
+export {negate} from 'partial.lenses'
 export const none = K.lift(L.none)
 export const normalize = K.lift(L.normalize)
-export const optional = K.lift(L.optional)
+export {optional} from 'partial.lenses'
 export const or = K.lift(L.or)
 export const orElse = K.lift(L.orElse)
 export const pick = K.lift(L.pick)
@@ -102,12 +102,12 @@ export const propsOf = K.lift(L.propsOf)
 export const query = K.lift(L.query)
 export const removable = K.lift(L.removable)
 export const remove = K.lift(L.remove)
-export const removeOp = K.lift(L.removeOp)
+export {removeOp} from 'partial.lenses'
 export const replace = K.lift(L.replace)
 export const replaces = K.lift(L.replaces)
 export const required = K.lift(L.required)
 export const reread = K.lift(L.reread)
-export const reverse = K.lift(L.reverse)
+export {reverse} from 'partial.lenses'
 export const rewrite = K.lift(L.rewrite)
 export const satisfying = K.lift(L.satisfying)
 export const seemsArrayLike = K.lift(L.seemsArrayLike)
@@ -117,7 +117,7 @@ export const seq = K.lift(L.seq)
 export const set = K.lift(L.set)
 export const setOp = K.lift(L.setOp)
 export const setter = K.lift(L.setter)
-export const singleton = K.lift(L.singleton)
+export {singleton} from 'partial.lenses'
 export const slice = K.lift(L.slice)
 export const split = K.lift(L.split)
 export const subtract = K.lift(L.subtract)
@@ -129,9 +129,9 @@ export const transform = K.lift(L.transform)
 export const traverse = K.lift(L.traverse)
 export const uncouple = K.lift(L.uncouple)
 export const unless = K.lift(L.unless)
-export const uri = K.lift(L.uri)
-export const uriComponent = K.lift(L.uriComponent)
+export {uri} from 'partial.lenses'
+export {uriComponent} from 'partial.lenses'
 export const valueOr = K.lift(L.valueOr)
-export const values = K.lift(L.values)
+export {values} from 'partial.lenses'
 export const when = K.lift(L.when)
-export const zero = K.lift(L.zero)
+export {zero} from 'partial.lenses'
