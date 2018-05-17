@@ -5,6 +5,7 @@ import * as K from 'karet.lift'
 
 export {Constant} from 'partial.lenses'
 export {Identity} from 'partial.lenses'
+export {IdentityAsync} from 'partial.lenses'
 export const add = K.lift(L.add)
 export const all = K.lift(L.all)
 export const and = K.lift(L.and)
@@ -82,6 +83,7 @@ export const meanAs = K.lift(L.meanAs)
 export const minimum = K.lift(L.minimum)
 export const minimumBy = K.lift(L.minimumBy)
 export const modify = K.lift(L.modify)
+export const modifyAsync = K.lift(L.modifyAsync)
 export const modifyOp = K.lift(L.modifyOp)
 export const multiply = K.lift(L.multiply)
 export {negate} from 'partial.lenses'
@@ -126,6 +128,7 @@ export const sum = K.lift(L.sum)
 export const sumAs = K.lift(L.sumAs)
 export const toFunction = K.lift(L.toFunction)
 export const transform = K.lift(L.transform)
+export const transformAsync = K.lift(L.transformAsync)
 export const traverse = K.lift(L.traverse)
 export const uncouple = K.lift(L.uncouple)
 export const unless = K.lift(L.unless)

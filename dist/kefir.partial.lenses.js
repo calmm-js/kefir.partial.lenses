@@ -68,6 +68,7 @@
 	var minimum = /*#__PURE__*/K.lift(L.minimum);
 	var minimumBy = /*#__PURE__*/K.lift(L.minimumBy);
 	var modify = /*#__PURE__*/K.lift(L.modify);
+	var modifyAsync = /*#__PURE__*/K.lift(L.modifyAsync);
 	var modifyOp = /*#__PURE__*/K.lift(L.modifyOp);
 	var multiply = /*#__PURE__*/K.lift(L.multiply);
 	var none = /*#__PURE__*/K.lift(L.none);
@@ -107,6 +108,7 @@
 	var sumAs = /*#__PURE__*/K.lift(L.sumAs);
 	var toFunction = /*#__PURE__*/K.lift(L.toFunction);
 	var transform = /*#__PURE__*/K.lift(L.transform);
+	var transformAsync = /*#__PURE__*/K.lift(L.transformAsync);
 	var traverse = /*#__PURE__*/K.lift(L.traverse);
 	var uncouple = /*#__PURE__*/K.lift(L.uncouple);
 	var unless = /*#__PURE__*/K.lift(L.unless);
@@ -115,6 +117,7 @@
 
 	exports.Constant = L.Constant;
 	exports.Identity = L.Identity;
+	exports.IdentityAsync = L.IdentityAsync;
 	exports.append = L.append;
 	exports.children = L.children;
 	exports.complement = L.complement;
@@ -201,6 +204,7 @@
 	exports.minimum = minimum;
 	exports.minimumBy = minimumBy;
 	exports.modify = modify;
+	exports.modifyAsync = modifyAsync;
 	exports.modifyOp = modifyOp;
 	exports.multiply = multiply;
 	exports.none = none;
@@ -240,6 +244,7 @@
 	exports.sumAs = sumAs;
 	exports.toFunction = toFunction;
 	exports.transform = transform;
+	exports.transformAsync = transformAsync;
 	exports.traverse = traverse;
 	exports.uncouple = uncouple;
 	exports.unless = unless;
