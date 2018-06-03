@@ -32,6 +32,7 @@
 	var countsAs = /*#__PURE__*/K.lift(L.countsAs);
 	var defaults = /*#__PURE__*/K.lift(L.defaults);
 	var define = /*#__PURE__*/K.lift(L.define);
+	var disjoint = /*#__PURE__*/K.lift(L.disjoint);
 	var divide = /*#__PURE__*/K.lift(L.divide);
 	var dropPrefix = /*#__PURE__*/K.lift(L.dropPrefix);
 	var dropSuffix = /*#__PURE__*/K.lift(L.dropSuffix);
@@ -168,6 +169,7 @@
 	exports.countsAs = countsAs;
 	exports.defaults = defaults;
 	exports.define = define;
+	exports.disjoint = disjoint;
 	exports.divide = divide;
 	exports.dropPrefix = dropPrefix;
 	exports.dropSuffix = dropSuffix;
