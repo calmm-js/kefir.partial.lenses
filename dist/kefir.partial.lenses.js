@@ -47,6 +47,7 @@
 	var forEachWith = /*#__PURE__*/K.lift(L.forEachWith);
 	var get = /*#__PURE__*/K.lift(L.get);
 	var getInverse = /*#__PURE__*/K.lift(L.getInverse);
+	var getLog = /*#__PURE__*/K.lift(L.getLog);
 	var ifElse = /*#__PURE__*/K.lift(L.ifElse);
 	var iftes = /*#__PURE__*/K.lift(L.iftes);
 	var index = /*#__PURE__*/K.lift(L.index);
@@ -184,6 +185,7 @@
 	exports.forEachWith = forEachWith;
 	exports.get = get;
 	exports.getInverse = getInverse;
+	exports.getLog = getLog;
 	exports.ifElse = ifElse;
 	exports.iftes = iftes;
 	exports.index = index;
