@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('partial.lenses'), require('karet.lift')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'partial.lenses', 'karet.lift'], factory) :
-	(factory((global.Kefir = global.Kefir || {}, global.Kefir.partial = global.Kefir.partial || {}, global.Kefir.partial.lenses = {}),global.partial.lenses,global.karet.lift));
+	(factory((global.Kefir = global.Kefir || {}, global.Kefir.partial = global.Kefir.partial || {}, global.Kefir.partial.lenses = {}),global.L,global.karet.lift));
 }(this, (function (exports,L,K) { 'use strict';
 
 	// THIS FILE IS GENERATED
@@ -58,10 +58,12 @@
 	var iso = /*#__PURE__*/K.lift(L.iso);
 	var join = /*#__PURE__*/K.lift(L.join);
 	var joinAs = /*#__PURE__*/K.lift(L.joinAs);
+	var joinIx = /*#__PURE__*/K.lift(L.joinIx);
 	var json = /*#__PURE__*/K.lift(L.json);
 	var lazy = /*#__PURE__*/K.lift(L.lazy);
 	var lens = /*#__PURE__*/K.lift(L.lens);
 	var log = /*#__PURE__*/K.lift(L.log);
+	var mapIx = /*#__PURE__*/K.lift(L.mapIx);
 	var matches = /*#__PURE__*/K.lift(L.matches);
 	var maximum = /*#__PURE__*/K.lift(L.maximum);
 	var maximumBy = /*#__PURE__*/K.lift(L.maximumBy);
@@ -100,14 +102,17 @@
 	var selectAs = /*#__PURE__*/K.lift(L.selectAs);
 	var seq = /*#__PURE__*/K.lift(L.seq);
 	var set = /*#__PURE__*/K.lift(L.set);
+	var setIx = /*#__PURE__*/K.lift(L.setIx);
 	var setOp = /*#__PURE__*/K.lift(L.setOp);
 	var setter = /*#__PURE__*/K.lift(L.setter);
+	var skipIx = /*#__PURE__*/K.lift(L.skipIx);
 	var slice = /*#__PURE__*/K.lift(L.slice);
 	var split = /*#__PURE__*/K.lift(L.split);
 	var subtract = /*#__PURE__*/K.lift(L.subtract);
 	var suffix = /*#__PURE__*/K.lift(L.suffix);
 	var sum = /*#__PURE__*/K.lift(L.sum);
 	var sumAs = /*#__PURE__*/K.lift(L.sumAs);
+	var tieIx = /*#__PURE__*/K.lift(L.tieIx);
 	var toFunction = /*#__PURE__*/K.lift(L.toFunction);
 	var transform = /*#__PURE__*/K.lift(L.transform);
 	var transformAsync = /*#__PURE__*/K.lift(L.transformAsync);
@@ -196,10 +201,12 @@
 	exports.iso = iso;
 	exports.join = join;
 	exports.joinAs = joinAs;
+	exports.joinIx = joinIx;
 	exports.json = json;
 	exports.lazy = lazy;
 	exports.lens = lens;
 	exports.log = log;
+	exports.mapIx = mapIx;
 	exports.matches = matches;
 	exports.maximum = maximum;
 	exports.maximumBy = maximumBy;
@@ -238,14 +245,17 @@
 	exports.selectAs = selectAs;
 	exports.seq = seq;
 	exports.set = set;
+	exports.setIx = setIx;
 	exports.setOp = setOp;
 	exports.setter = setter;
+	exports.skipIx = skipIx;
 	exports.slice = slice;
 	exports.split = split;
 	exports.subtract = subtract;
 	exports.suffix = suffix;
 	exports.sum = sum;
 	exports.sumAs = sumAs;
+	exports.tieIx = tieIx;
 	exports.toFunction = toFunction;
 	exports.transform = transform;
 	exports.transformAsync = transformAsync;
