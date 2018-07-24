@@ -57,6 +57,7 @@ export const forEachWith = K.lift(L.forEachWith)
 export const get = K.lift(L.get)
 export const getInverse = K.lift(L.getInverse)
 export const getLog = K.lift(L.getLog)
+export const getter = K.lift(L.getter)
 export {identity} from 'partial.lenses'
 export const ifElse = K.lift(L.ifElse)
 export const iftes = K.lift(L.iftes)
