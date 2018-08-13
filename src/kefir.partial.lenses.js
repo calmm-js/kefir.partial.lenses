@@ -3,9 +3,9 @@
 import * as L from 'partial.lenses'
 import * as K from 'karet.lift'
 
-export {Constant} from 'partial.lenses'
 export {Identity} from 'partial.lenses'
 export {IdentityAsync} from 'partial.lenses'
+export {Select} from 'partial.lenses'
 export const add = K.lift(L.add)
 export const all = K.lift(L.all)
 export const and = K.lift(L.and)
@@ -55,12 +55,12 @@ export const foldr = K.lift(L.foldr)
 export const forEach = K.lift(L.forEach)
 export const forEachWith = K.lift(L.forEachWith)
 export const get = K.lift(L.get)
+export const getAs = K.lift(L.getAs)
 export const getInverse = K.lift(L.getInverse)
 export const getLog = K.lift(L.getLog)
 export const getter = K.lift(L.getter)
 export {identity} from 'partial.lenses'
 export const ifElse = K.lift(L.ifElse)
-export const iftes = K.lift(L.iftes)
 export const index = K.lift(L.index)
 export {indexed} from 'partial.lenses'
 export const inverse = K.lift(L.inverse)
