@@ -90,6 +90,7 @@ export const minimumBy = K.lift(L.minimumBy)
 export const modify = K.lift(L.modify)
 export const modifyAsync = K.lift(L.modifyAsync)
 export const modifyOp = K.lift(L.modifyOp)
+export {multikeyed} from 'partial.lenses'
 export const multiply = K.lift(L.multiply)
 export {negate} from 'partial.lenses'
 export const none = K.lift(L.none)

@@ -141,6 +141,7 @@ exports.keyed = L.keyed;
 exports.keys = L.keys;
 exports.last = L.last;
 exports.leafs = L.leafs;
+exports.multikeyed = L.multikeyed;
 exports.negate = L.negate;
 exports.optional = L.optional;
 exports.removeOp = L.removeOp;
