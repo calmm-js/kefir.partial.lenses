@@ -144,6 +144,7 @@ exports.leafs = L.leafs;
 exports.multikeyed = L.multikeyed;
 exports.negate = L.negate;
 exports.optional = L.optional;
+exports.querystring = L.querystring;
 exports.removeOp = L.removeOp;
 exports.reverse = L.reverse;
 exports.singleton = L.singleton;

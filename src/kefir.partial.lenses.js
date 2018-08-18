@@ -108,6 +108,7 @@ export const prop = K.lift(L.prop)
 export const props = K.lift(L.props)
 export const propsOf = K.lift(L.propsOf)
 export const query = K.lift(L.query)
+export {querystring} from 'partial.lenses'
 export const removable = K.lift(L.removable)
 export const remove = K.lift(L.remove)
 export {removeOp} from 'partial.lenses'

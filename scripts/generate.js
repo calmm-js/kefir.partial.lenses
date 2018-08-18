@@ -24,6 +24,7 @@ const liftExplicitly = Object.assign(Object.create(null), {
   multikeyed: 0,
   negate: 0,
   optional: 0,
+  querystring: 0,
   removeOp: 0,
   reverse: 0,
   singleton: 0,
