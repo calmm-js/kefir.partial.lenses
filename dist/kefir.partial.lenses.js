@@ -30,6 +30,7 @@
 	var countIf = /*#__PURE__*/K.lift(L.countIf);
 	var counts = /*#__PURE__*/K.lift(L.counts);
 	var countsAs = /*#__PURE__*/K.lift(L.countsAs);
+	var cross = /*#__PURE__*/K.lift(L.cross);
 	var defaults = /*#__PURE__*/K.lift(L.defaults);
 	var define = /*#__PURE__*/K.lift(L.define);
 	var disjoint = /*#__PURE__*/K.lift(L.disjoint);
@@ -57,6 +58,7 @@
 	var isDefined = /*#__PURE__*/K.lift(L.isDefined);
 	var isEmpty = /*#__PURE__*/K.lift(L.isEmpty);
 	var iso = /*#__PURE__*/K.lift(L.iso);
+	var iterate = /*#__PURE__*/K.lift(L.iterate);
 	var join = /*#__PURE__*/K.lift(L.join);
 	var joinAs = /*#__PURE__*/K.lift(L.joinAs);
 	var joinIx = /*#__PURE__*/K.lift(L.joinIx);
@@ -109,6 +111,7 @@
 	var skipIx = /*#__PURE__*/K.lift(L.skipIx);
 	var slice = /*#__PURE__*/K.lift(L.slice);
 	var split = /*#__PURE__*/K.lift(L.split);
+	var subset = /*#__PURE__*/K.lift(L.subset);
 	var subtract = /*#__PURE__*/K.lift(L.subtract);
 	var suffix = /*#__PURE__*/K.lift(L.suffix);
 	var sum = /*#__PURE__*/K.lift(L.sum);
@@ -176,6 +179,7 @@
 	exports.countIf = countIf;
 	exports.counts = counts;
 	exports.countsAs = countsAs;
+	exports.cross = cross;
 	exports.defaults = defaults;
 	exports.define = define;
 	exports.disjoint = disjoint;
@@ -203,6 +207,7 @@
 	exports.isDefined = isDefined;
 	exports.isEmpty = isEmpty;
 	exports.iso = iso;
+	exports.iterate = iterate;
 	exports.join = join;
 	exports.joinAs = joinAs;
 	exports.joinIx = joinIx;
@@ -255,6 +260,7 @@
 	exports.skipIx = skipIx;
 	exports.slice = slice;
 	exports.split = split;
+	exports.subset = subset;
 	exports.subtract = subtract;
 	exports.suffix = suffix;
 	exports.sum = sum;
