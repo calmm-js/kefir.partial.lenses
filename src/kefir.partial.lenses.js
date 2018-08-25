@@ -8,7 +8,9 @@ export {IdentityAsync} from 'partial.lenses'
 export {Select} from 'partial.lenses'
 export const add = K.lift(L.add)
 export const all = K.lift(L.all)
+export const all1 = K.lift(L.all1)
 export const and = K.lift(L.and)
+export const and1 = K.lift(L.and1)
 export const any = K.lift(L.any)
 export {append} from 'partial.lenses'
 export const array = K.lift(L.array)

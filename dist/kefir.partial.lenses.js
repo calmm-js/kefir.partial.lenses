@@ -7,7 +7,9 @@
 	// THIS FILE IS GENERATED
 	var add = /*#__PURE__*/K.lift(L.add);
 	var all = /*#__PURE__*/K.lift(L.all);
+	var all1 = /*#__PURE__*/K.lift(L.all1);
 	var and = /*#__PURE__*/K.lift(L.and);
+	var and1 = /*#__PURE__*/K.lift(L.and1);
 	var any = /*#__PURE__*/K.lift(L.any);
 	var array = /*#__PURE__*/K.lift(L.array);
 	var assign = /*#__PURE__*/K.lift(L.assign);
@@ -156,7 +158,9 @@
 	exports.zero = L.zero;
 	exports.add = add;
 	exports.all = all;
+	exports.all1 = all1;
 	exports.and = and;
+	exports.and1 = and1;
 	exports.any = any;
 	exports.array = array;
 	exports.assign = assign;
