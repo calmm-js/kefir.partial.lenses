@@ -48,6 +48,9 @@
 	var foldr = /*#__PURE__*/K.lift(L.foldr);
 	var forEach = /*#__PURE__*/K.lift(L.forEach);
 	var forEachWith = /*#__PURE__*/K.lift(L.forEachWith);
+	var fromFantasy = /*#__PURE__*/K.lift(L.fromFantasy);
+	var fromFantasyApplicative = /*#__PURE__*/K.lift(L.fromFantasyApplicative);
+	var fromFantasyMonad = /*#__PURE__*/K.lift(L.fromFantasyMonad);
 	var get = /*#__PURE__*/K.lift(L.get);
 	var getAs = /*#__PURE__*/K.lift(L.getAs);
 	var getInverse = /*#__PURE__*/K.lift(L.getInverse);
@@ -128,6 +131,7 @@
 	var valueOr = /*#__PURE__*/K.lift(L.valueOr);
 	var when = /*#__PURE__*/K.lift(L.when);
 
+	exports.FantasyFunctor = L.FantasyFunctor;
 	exports.Identity = L.Identity;
 	exports.IdentityAsync = L.IdentityAsync;
 	exports.Select = L.Select;
@@ -199,6 +203,9 @@
 	exports.foldr = foldr;
 	exports.forEach = forEach;
 	exports.forEachWith = forEachWith;
+	exports.fromFantasy = fromFantasy;
+	exports.fromFantasyApplicative = fromFantasyApplicative;
+	exports.fromFantasyMonad = fromFantasyMonad;
 	exports.get = get;
 	exports.getAs = getAs;
 	exports.getInverse = getInverse;

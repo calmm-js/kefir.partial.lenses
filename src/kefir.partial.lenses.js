@@ -3,6 +3,7 @@
 import * as L from 'partial.lenses'
 import * as K from 'karet.lift'
 
+export {FantasyFunctor} from 'partial.lenses'
 export {Identity} from 'partial.lenses'
 export {IdentityAsync} from 'partial.lenses'
 export {Select} from 'partial.lenses'
@@ -57,6 +58,9 @@ export const foldl = K.lift(L.foldl)
 export const foldr = K.lift(L.foldr)
 export const forEach = K.lift(L.forEach)
 export const forEachWith = K.lift(L.forEachWith)
+export const fromFantasy = K.lift(L.fromFantasy)
+export const fromFantasyApplicative = K.lift(L.fromFantasyApplicative)
+export const fromFantasyMonad = K.lift(L.fromFantasyMonad)
 export const get = K.lift(L.get)
 export const getAs = K.lift(L.getAs)
 export const getInverse = K.lift(L.getInverse)
