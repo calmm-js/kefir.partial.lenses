@@ -23,6 +23,8 @@
 	var choose = /*#__PURE__*/K.lift(L.choose);
 	var collect = /*#__PURE__*/K.lift(L.collect);
 	var collectAs = /*#__PURE__*/K.lift(L.collectAs);
+	var collectTotal = /*#__PURE__*/K.lift(L.collectTotal);
+	var collectTotalAs = /*#__PURE__*/K.lift(L.collectTotalAs);
 	var compose = /*#__PURE__*/K.lift(L.compose);
 	var concat = /*#__PURE__*/K.lift(L.concat);
 	var concatAs = /*#__PURE__*/K.lift(L.concatAs);
@@ -36,6 +38,7 @@
 	var defaults = /*#__PURE__*/K.lift(L.defaults);
 	var define = /*#__PURE__*/K.lift(L.define);
 	var disjoint = /*#__PURE__*/K.lift(L.disjoint);
+	var disperse = /*#__PURE__*/K.lift(L.disperse);
 	var divide = /*#__PURE__*/K.lift(L.divide);
 	var dropPrefix = /*#__PURE__*/K.lift(L.dropPrefix);
 	var dropSuffix = /*#__PURE__*/K.lift(L.dropSuffix);
@@ -87,6 +90,7 @@
 	var normalize = /*#__PURE__*/K.lift(L.normalize);
 	var or = /*#__PURE__*/K.lift(L.or);
 	var orElse = /*#__PURE__*/K.lift(L.orElse);
+	var partsOf = /*#__PURE__*/K.lift(L.partsOf);
 	var pick = /*#__PURE__*/K.lift(L.pick);
 	var pickIn = /*#__PURE__*/K.lift(L.pickIn);
 	var pointer = /*#__PURE__*/K.lift(L.pointer);
@@ -178,6 +182,8 @@
 	exports.choose = choose;
 	exports.collect = collect;
 	exports.collectAs = collectAs;
+	exports.collectTotal = collectTotal;
+	exports.collectTotalAs = collectTotalAs;
 	exports.compose = compose;
 	exports.concat = concat;
 	exports.concatAs = concatAs;
@@ -191,6 +197,7 @@
 	exports.defaults = defaults;
 	exports.define = define;
 	exports.disjoint = disjoint;
+	exports.disperse = disperse;
 	exports.divide = divide;
 	exports.dropPrefix = dropPrefix;
 	exports.dropSuffix = dropSuffix;
@@ -242,6 +249,7 @@
 	exports.normalize = normalize;
 	exports.or = or;
 	exports.orElse = orElse;
+	exports.partsOf = partsOf;
 	exports.pick = pick;
 	exports.pickIn = pickIn;
 	exports.pointer = pointer;
