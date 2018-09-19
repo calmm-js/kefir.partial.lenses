@@ -8,6 +8,7 @@
 	var add = /*#__PURE__*/K.lift(L.add);
 	var all = /*#__PURE__*/K.lift(L.all);
 	var all1 = /*#__PURE__*/K.lift(L.all1);
+	var alternatives = /*#__PURE__*/K.lift(L.alternatives);
 	var and = /*#__PURE__*/K.lift(L.and);
 	var and1 = /*#__PURE__*/K.lift(L.and1);
 	var any = /*#__PURE__*/K.lift(L.any);
@@ -89,6 +90,7 @@
 	var none = /*#__PURE__*/K.lift(L.none);
 	var normalize = /*#__PURE__*/K.lift(L.normalize);
 	var or = /*#__PURE__*/K.lift(L.or);
+	var orAlternatively = /*#__PURE__*/K.lift(L.orAlternatively);
 	var orElse = /*#__PURE__*/K.lift(L.orElse);
 	var partsOf = /*#__PURE__*/K.lift(L.partsOf);
 	var pick = /*#__PURE__*/K.lift(L.pick);
@@ -167,6 +169,7 @@
 	exports.add = add;
 	exports.all = all;
 	exports.all1 = all1;
+	exports.alternatives = alternatives;
 	exports.and = and;
 	exports.and1 = and1;
 	exports.any = any;
@@ -248,6 +251,7 @@
 	exports.none = none;
 	exports.normalize = normalize;
 	exports.or = or;
+	exports.orAlternatively = orAlternatively;
 	exports.orElse = orElse;
 	exports.partsOf = partsOf;
 	exports.pick = pick;
