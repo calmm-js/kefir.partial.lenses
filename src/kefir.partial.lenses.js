@@ -7,6 +7,7 @@ export {FantasyFunctor} from 'partial.lenses'
 export {Identity} from 'partial.lenses'
 export {IdentityAsync} from 'partial.lenses'
 export {Select} from 'partial.lenses'
+export {_} from 'partial.lenses'
 export const add = K.lift(L.add)
 export const all = K.lift(L.all)
 export const all1 = K.lift(L.all1)
@@ -92,6 +93,8 @@ export {leafs} from 'partial.lenses'
 export const lens = K.lift(L.lens)
 export const log = K.lift(L.log)
 export const mapIx = K.lift(L.mapIx)
+export const mapping = K.lift(L.mapping)
+export const mappings = K.lift(L.mappings)
 export const matches = K.lift(L.matches)
 export const maximum = K.lift(L.maximum)
 export const maximumBy = K.lift(L.maximumBy)

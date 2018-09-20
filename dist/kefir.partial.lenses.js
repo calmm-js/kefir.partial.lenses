@@ -76,6 +76,8 @@
 	var lens = /*#__PURE__*/K.lift(L.lens);
 	var log = /*#__PURE__*/K.lift(L.log);
 	var mapIx = /*#__PURE__*/K.lift(L.mapIx);
+	var mapping = /*#__PURE__*/K.lift(L.mapping);
+	var mappings = /*#__PURE__*/K.lift(L.mappings);
 	var matches = /*#__PURE__*/K.lift(L.matches);
 	var maximum = /*#__PURE__*/K.lift(L.maximum);
 	var maximumBy = /*#__PURE__*/K.lift(L.maximumBy);
@@ -141,6 +143,7 @@
 	exports.Identity = L.Identity;
 	exports.IdentityAsync = L.IdentityAsync;
 	exports.Select = L.Select;
+	exports._ = L._;
 	exports.append = L.append;
 	exports.children = L.children;
 	exports.complement = L.complement;
@@ -237,6 +240,8 @@
 	exports.lens = lens;
 	exports.log = log;
 	exports.mapIx = mapIx;
+	exports.mapping = mapping;
+	exports.mappings = mappings;
 	exports.matches = matches;
 	exports.maximum = maximum;
 	exports.maximumBy = maximumBy;
