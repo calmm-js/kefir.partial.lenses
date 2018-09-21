@@ -12,6 +12,7 @@
 	var and = /*#__PURE__*/K.lift(L.and);
 	var and1 = /*#__PURE__*/K.lift(L.and1);
 	var any = /*#__PURE__*/K.lift(L.any);
+	var applyAt = /*#__PURE__*/K.lift(L.applyAt);
 	var array = /*#__PURE__*/K.lift(L.array);
 	var assign = /*#__PURE__*/K.lift(L.assign);
 	var assignOp = /*#__PURE__*/K.lift(L.assignOp);
@@ -31,6 +32,7 @@
 	var concatAs = /*#__PURE__*/K.lift(L.concatAs);
 	var cond = /*#__PURE__*/K.lift(L.cond);
 	var condOf = /*#__PURE__*/K.lift(L.condOf);
+	var conjugate = /*#__PURE__*/K.lift(L.conjugate);
 	var count = /*#__PURE__*/K.lift(L.count);
 	var countIf = /*#__PURE__*/K.lift(L.countIf);
 	var counts = /*#__PURE__*/K.lift(L.counts);
@@ -176,6 +178,7 @@
 	exports.and = and;
 	exports.and1 = and1;
 	exports.any = any;
+	exports.applyAt = applyAt;
 	exports.array = array;
 	exports.assign = assign;
 	exports.assignOp = assignOp;
@@ -195,6 +198,7 @@
 	exports.concatAs = concatAs;
 	exports.cond = cond;
 	exports.condOf = condOf;
+	exports.conjugate = conjugate;
 	exports.count = count;
 	exports.countIf = countIf;
 	exports.counts = counts;
