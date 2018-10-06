@@ -76,6 +76,7 @@
 	var json = /*#__PURE__*/K.lift(L.json);
 	var lazy = /*#__PURE__*/K.lift(L.lazy);
 	var lens = /*#__PURE__*/K.lift(L.lens);
+	var limit = /*#__PURE__*/K.lift(L.limit);
 	var log = /*#__PURE__*/K.lift(L.log);
 	var mapIx = /*#__PURE__*/K.lift(L.mapIx);
 	var mapping = /*#__PURE__*/K.lift(L.mapping);
@@ -93,6 +94,7 @@
 	var multiply = /*#__PURE__*/K.lift(L.multiply);
 	var none = /*#__PURE__*/K.lift(L.none);
 	var normalize = /*#__PURE__*/K.lift(L.normalize);
+	var offset = /*#__PURE__*/K.lift(L.offset);
 	var or = /*#__PURE__*/K.lift(L.or);
 	var orAlternatively = /*#__PURE__*/K.lift(L.orAlternatively);
 	var orElse = /*#__PURE__*/K.lift(L.orElse);
@@ -107,6 +109,7 @@
 	var props = /*#__PURE__*/K.lift(L.props);
 	var propsOf = /*#__PURE__*/K.lift(L.propsOf);
 	var query = /*#__PURE__*/K.lift(L.query);
+	var reIx = /*#__PURE__*/K.lift(L.reIx);
 	var removable = /*#__PURE__*/K.lift(L.removable);
 	var remove = /*#__PURE__*/K.lift(L.remove);
 	var replace = /*#__PURE__*/K.lift(L.replace);
@@ -126,6 +129,7 @@
 	var skipIx = /*#__PURE__*/K.lift(L.skipIx);
 	var slice = /*#__PURE__*/K.lift(L.slice);
 	var split = /*#__PURE__*/K.lift(L.split);
+	var subseq = /*#__PURE__*/K.lift(L.subseq);
 	var subset = /*#__PURE__*/K.lift(L.subset);
 	var subtract = /*#__PURE__*/K.lift(L.subtract);
 	var suffix = /*#__PURE__*/K.lift(L.suffix);
@@ -242,6 +246,7 @@
 	exports.json = json;
 	exports.lazy = lazy;
 	exports.lens = lens;
+	exports.limit = limit;
 	exports.log = log;
 	exports.mapIx = mapIx;
 	exports.mapping = mapping;
@@ -259,6 +264,7 @@
 	exports.multiply = multiply;
 	exports.none = none;
 	exports.normalize = normalize;
+	exports.offset = offset;
 	exports.or = or;
 	exports.orAlternatively = orAlternatively;
 	exports.orElse = orElse;
@@ -273,6 +279,7 @@
 	exports.props = props;
 	exports.propsOf = propsOf;
 	exports.query = query;
+	exports.reIx = reIx;
 	exports.removable = removable;
 	exports.remove = remove;
 	exports.replace = replace;
@@ -292,6 +299,7 @@
 	exports.skipIx = skipIx;
 	exports.slice = slice;
 	exports.split = split;
+	exports.subseq = subseq;
 	exports.subset = subset;
 	exports.subtract = subtract;
 	exports.suffix = suffix;

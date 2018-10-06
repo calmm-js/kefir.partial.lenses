@@ -93,6 +93,7 @@ export {last} from 'partial.lenses'
 export const lazy = K.lift(L.lazy)
 export {leafs} from 'partial.lenses'
 export const lens = K.lift(L.lens)
+export const limit = K.lift(L.limit)
 export const log = K.lift(L.log)
 export const mapIx = K.lift(L.mapIx)
 export const mapping = K.lift(L.mapping)
@@ -112,6 +113,7 @@ export const multiply = K.lift(L.multiply)
 export {negate} from 'partial.lenses'
 export const none = K.lift(L.none)
 export const normalize = K.lift(L.normalize)
+export const offset = K.lift(L.offset)
 export {optional} from 'partial.lenses'
 export const or = K.lift(L.or)
 export const orAlternatively = K.lift(L.orAlternatively)
@@ -128,6 +130,7 @@ export const props = K.lift(L.props)
 export const propsOf = K.lift(L.propsOf)
 export const query = K.lift(L.query)
 export {querystring} from 'partial.lenses'
+export const reIx = K.lift(L.reIx)
 export const removable = K.lift(L.removable)
 export const remove = K.lift(L.remove)
 export {removeOp} from 'partial.lenses'
@@ -150,6 +153,7 @@ export {singleton} from 'partial.lenses'
 export const skipIx = K.lift(L.skipIx)
 export const slice = K.lift(L.slice)
 export const split = K.lift(L.split)
+export const subseq = K.lift(L.subseq)
 export const subset = K.lift(L.subset)
 export const subtract = K.lift(L.subtract)
 export const suffix = K.lift(L.suffix)
