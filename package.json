@@ -1,6 +1,6 @@
 {
   "name": "kefir.partial.lenses",
-  "version": "14.11.0",
+  "version": "14.13.0",
   "description": "Partial Lenses functions lifted to work on Kefir properties",
   "module": "dist/kefir.partial.lenses.es.js",
   "main": "dist/kefir.partial.lenses.cjs.js",
@@ -42,10 +42,10 @@
     "babel-register": "^6.26.0",
     "codecov": "^3.1.0",
     "concurrently": "^4.0.1",
-    "eslint": "^5.6.1",
+    "eslint": "^5.8.0",
     "kefir": "^3.8.5",
     "mocha": "^5.2.0",
-    "nyc": "^13.0.1",
+    "nyc": "^13.1.0",
     "ramda": "^0.25.0",
     "rollup": "^0.66.6",
     "rollup-plugin-babel": "^3.0.7",
@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "karet.lift": "^2.1.0",
-    "partial.lenses": "^14.10.0"
+    "partial.lenses": "^14.13.0"
   },
   "peerDependencies": {
     "kefir": "^3.7.0"

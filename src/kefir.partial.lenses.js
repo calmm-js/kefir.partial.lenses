@@ -18,8 +18,12 @@ export const any = K.lift(L.any)
 export {append} from 'partial.lenses'
 export const applyAt = K.lift(L.applyAt)
 export const array = K.lift(L.array)
+export const arrays = K.lift(L.arrays)
 export const assign = K.lift(L.assign)
 export const assignOp = K.lift(L.assignOp)
+export const attemptEveryDown = K.lift(L.attemptEveryDown)
+export const attemptEveryUp = K.lift(L.attemptEveryUp)
+export const attemptSomeDown = K.lift(L.attemptSomeDown)
 export const branch = K.lift(L.branch)
 export const branchOr = K.lift(L.branchOr)
 export const branches = K.lift(L.branches)
@@ -60,6 +64,7 @@ export const findWith = K.lift(L.findWith)
 export {first} from 'partial.lenses'
 export const flat = K.lift(L.flat)
 export {flatten} from 'partial.lenses'
+export const fold = K.lift(L.fold)
 export const foldTraversalLens = K.lift(L.foldTraversalLens)
 export const foldl = K.lift(L.foldl)
 export const foldr = K.lift(L.foldr)
@@ -73,6 +78,7 @@ export const getAs = K.lift(L.getAs)
 export const getInverse = K.lift(L.getInverse)
 export const getLog = K.lift(L.getLog)
 export const getter = K.lift(L.getter)
+export const groupBy = K.lift(L.groupBy)
 export {identity} from 'partial.lenses'
 export const ifElse = K.lift(L.ifElse)
 export const index = K.lift(L.index)
@@ -89,6 +95,7 @@ export const joinIx = K.lift(L.joinIx)
 export const json = K.lift(L.json)
 export {keyed} from 'partial.lenses'
 export {keys} from 'partial.lenses'
+export {keysEverywhere} from 'partial.lenses'
 export {last} from 'partial.lenses'
 export const lazy = K.lift(L.lazy)
 export {leafs} from 'partial.lenses'
@@ -119,6 +126,8 @@ export const or = K.lift(L.or)
 export const orAlternatively = K.lift(L.orAlternatively)
 export const orElse = K.lift(L.orElse)
 export const partsOf = K.lift(L.partsOf)
+export const pattern = K.lift(L.pattern)
+export const patterns = K.lift(L.patterns)
 export const pick = K.lift(L.pick)
 export const pickIn = K.lift(L.pickIn)
 export const pointer = K.lift(L.pointer)
@@ -127,6 +136,7 @@ export const product = K.lift(L.product)
 export const productAs = K.lift(L.productAs)
 export const prop = K.lift(L.prop)
 export const props = K.lift(L.props)
+export const propsExcept = K.lift(L.propsExcept)
 export const propsOf = K.lift(L.propsOf)
 export const query = K.lift(L.query)
 export {querystring} from 'partial.lenses'
@@ -165,10 +175,14 @@ export const transform = K.lift(L.transform)
 export const transformAsync = K.lift(L.transformAsync)
 export const traverse = K.lift(L.traverse)
 export const uncouple = K.lift(L.uncouple)
+export const unfold = K.lift(L.unfold)
+export const ungroupBy = K.lift(L.ungroupBy)
 export const unless = K.lift(L.unless)
+export const unzipWith1 = K.lift(L.unzipWith1)
 export {uri} from 'partial.lenses'
 export {uriComponent} from 'partial.lenses'
 export const valueOr = K.lift(L.valueOr)
 export {values} from 'partial.lenses'
 export const when = K.lift(L.when)
 export {zero} from 'partial.lenses'
+export const zipWith1 = K.lift(L.zipWith1)

@@ -14,8 +14,12 @@
 	var any = /*#__PURE__*/K.lift(L.any);
 	var applyAt = /*#__PURE__*/K.lift(L.applyAt);
 	var array = /*#__PURE__*/K.lift(L.array);
+	var arrays = /*#__PURE__*/K.lift(L.arrays);
 	var assign = /*#__PURE__*/K.lift(L.assign);
 	var assignOp = /*#__PURE__*/K.lift(L.assignOp);
+	var attemptEveryDown = /*#__PURE__*/K.lift(L.attemptEveryDown);
+	var attemptEveryUp = /*#__PURE__*/K.lift(L.attemptEveryUp);
+	var attemptSomeDown = /*#__PURE__*/K.lift(L.attemptSomeDown);
 	var branch = /*#__PURE__*/K.lift(L.branch);
 	var branchOr = /*#__PURE__*/K.lift(L.branchOr);
 	var branches = /*#__PURE__*/K.lift(L.branches);
@@ -49,6 +53,7 @@
 	var find = /*#__PURE__*/K.lift(L.find);
 	var findWith = /*#__PURE__*/K.lift(L.findWith);
 	var flat = /*#__PURE__*/K.lift(L.flat);
+	var fold = /*#__PURE__*/K.lift(L.fold);
 	var foldTraversalLens = /*#__PURE__*/K.lift(L.foldTraversalLens);
 	var foldl = /*#__PURE__*/K.lift(L.foldl);
 	var foldr = /*#__PURE__*/K.lift(L.foldr);
@@ -62,6 +67,7 @@
 	var getInverse = /*#__PURE__*/K.lift(L.getInverse);
 	var getLog = /*#__PURE__*/K.lift(L.getLog);
 	var getter = /*#__PURE__*/K.lift(L.getter);
+	var groupBy = /*#__PURE__*/K.lift(L.groupBy);
 	var ifElse = /*#__PURE__*/K.lift(L.ifElse);
 	var index = /*#__PURE__*/K.lift(L.index);
 	var inverse = /*#__PURE__*/K.lift(L.inverse);
@@ -99,6 +105,8 @@
 	var orAlternatively = /*#__PURE__*/K.lift(L.orAlternatively);
 	var orElse = /*#__PURE__*/K.lift(L.orElse);
 	var partsOf = /*#__PURE__*/K.lift(L.partsOf);
+	var pattern = /*#__PURE__*/K.lift(L.pattern);
+	var patterns = /*#__PURE__*/K.lift(L.patterns);
 	var pick = /*#__PURE__*/K.lift(L.pick);
 	var pickIn = /*#__PURE__*/K.lift(L.pickIn);
 	var pointer = /*#__PURE__*/K.lift(L.pointer);
@@ -107,6 +115,7 @@
 	var productAs = /*#__PURE__*/K.lift(L.productAs);
 	var prop = /*#__PURE__*/K.lift(L.prop);
 	var props = /*#__PURE__*/K.lift(L.props);
+	var propsExcept = /*#__PURE__*/K.lift(L.propsExcept);
 	var propsOf = /*#__PURE__*/K.lift(L.propsOf);
 	var query = /*#__PURE__*/K.lift(L.query);
 	var reIx = /*#__PURE__*/K.lift(L.reIx);
@@ -141,9 +150,13 @@
 	var transformAsync = /*#__PURE__*/K.lift(L.transformAsync);
 	var traverse = /*#__PURE__*/K.lift(L.traverse);
 	var uncouple = /*#__PURE__*/K.lift(L.uncouple);
+	var unfold = /*#__PURE__*/K.lift(L.unfold);
+	var ungroupBy = /*#__PURE__*/K.lift(L.ungroupBy);
 	var unless = /*#__PURE__*/K.lift(L.unless);
+	var unzipWith1 = /*#__PURE__*/K.lift(L.unzipWith1);
 	var valueOr = /*#__PURE__*/K.lift(L.valueOr);
 	var when = /*#__PURE__*/K.lift(L.when);
+	var zipWith1 = /*#__PURE__*/K.lift(L.zipWith1);
 
 	exports.FantasyFunctor = L.FantasyFunctor;
 	exports.Identity = L.Identity;
@@ -162,6 +175,7 @@
 	exports.indexed = L.indexed;
 	exports.keyed = L.keyed;
 	exports.keys = L.keys;
+	exports.keysEverywhere = L.keysEverywhere;
 	exports.last = L.last;
 	exports.leafs = L.leafs;
 	exports.multikeyed = L.multikeyed;
@@ -184,8 +198,12 @@
 	exports.any = any;
 	exports.applyAt = applyAt;
 	exports.array = array;
+	exports.arrays = arrays;
 	exports.assign = assign;
 	exports.assignOp = assignOp;
+	exports.attemptEveryDown = attemptEveryDown;
+	exports.attemptEveryUp = attemptEveryUp;
+	exports.attemptSomeDown = attemptSomeDown;
 	exports.branch = branch;
 	exports.branchOr = branchOr;
 	exports.branches = branches;
@@ -219,6 +237,7 @@
 	exports.find = find;
 	exports.findWith = findWith;
 	exports.flat = flat;
+	exports.fold = fold;
 	exports.foldTraversalLens = foldTraversalLens;
 	exports.foldl = foldl;
 	exports.foldr = foldr;
@@ -232,6 +251,7 @@
 	exports.getInverse = getInverse;
 	exports.getLog = getLog;
 	exports.getter = getter;
+	exports.groupBy = groupBy;
 	exports.ifElse = ifElse;
 	exports.index = index;
 	exports.inverse = inverse;
@@ -269,6 +289,8 @@
 	exports.orAlternatively = orAlternatively;
 	exports.orElse = orElse;
 	exports.partsOf = partsOf;
+	exports.pattern = pattern;
+	exports.patterns = patterns;
 	exports.pick = pick;
 	exports.pickIn = pickIn;
 	exports.pointer = pointer;
@@ -277,6 +299,7 @@
 	exports.productAs = productAs;
 	exports.prop = prop;
 	exports.props = props;
+	exports.propsExcept = propsExcept;
 	exports.propsOf = propsOf;
 	exports.query = query;
 	exports.reIx = reIx;
@@ -311,9 +334,13 @@
 	exports.transformAsync = transformAsync;
 	exports.traverse = traverse;
 	exports.uncouple = uncouple;
+	exports.unfold = unfold;
+	exports.ungroupBy = ungroupBy;
 	exports.unless = unless;
+	exports.unzipWith1 = unzipWith1;
 	exports.valueOr = valueOr;
 	exports.when = when;
+	exports.zipWith1 = zipWith1;
 
 	Object.defineProperty(exports, '__esModule', { value: true });
 
