@@ -16,11 +16,14 @@ export const and = K.lift(L.and)
 export const and1 = K.lift(L.and1)
 export const any = K.lift(L.any)
 export {append} from 'partial.lenses'
+export const appendOp = K.lift(L.appendOp)
+export {appendTo} from 'partial.lenses'
 export const applyAt = K.lift(L.applyAt)
 export const array = K.lift(L.array)
 export const arrays = K.lift(L.arrays)
 export const assign = K.lift(L.assign)
 export const assignOp = K.lift(L.assignOp)
+export {assignTo} from 'partial.lenses'
 export const attemptEveryDown = K.lift(L.attemptEveryDown)
 export const attemptEveryUp = K.lift(L.attemptEveryUp)
 export const attemptSomeDown = K.lift(L.attemptSomeDown)
@@ -132,6 +135,8 @@ export const pick = K.lift(L.pick)
 export const pickIn = K.lift(L.pickIn)
 export const pointer = K.lift(L.pointer)
 export const prefix = K.lift(L.prefix)
+export const prependOp = K.lift(L.prependOp)
+export {prependTo} from 'partial.lenses'
 export const product = K.lift(L.product)
 export const productAs = K.lift(L.productAs)
 export const prop = K.lift(L.prop)

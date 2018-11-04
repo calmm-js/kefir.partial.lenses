@@ -3,7 +3,9 @@ const fs = require('fs')
 const L = require('partial.lenses')
 
 const liftExplicitly = Object.assign(Object.create(null), {
-  append: 0,
+  append: 0, // Deprecated
+  appendTo: 0,
+  assignTo: 0,
   children: 0,
   complement: 0,
   concatAs: 1,
@@ -25,6 +27,7 @@ const liftExplicitly = Object.assign(Object.create(null), {
   multikeyed: 0,
   negate: 0,
   optional: 0,
+  prependTo: 0,
   querystring: 0,
   removeOp: 0,
   reverse: 0,

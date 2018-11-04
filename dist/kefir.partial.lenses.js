@@ -12,6 +12,7 @@
 	var and = /*#__PURE__*/K.lift(L.and);
 	var and1 = /*#__PURE__*/K.lift(L.and1);
 	var any = /*#__PURE__*/K.lift(L.any);
+	var appendOp = /*#__PURE__*/K.lift(L.appendOp);
 	var applyAt = /*#__PURE__*/K.lift(L.applyAt);
 	var array = /*#__PURE__*/K.lift(L.array);
 	var arrays = /*#__PURE__*/K.lift(L.arrays);
@@ -111,6 +112,7 @@
 	var pickIn = /*#__PURE__*/K.lift(L.pickIn);
 	var pointer = /*#__PURE__*/K.lift(L.pointer);
 	var prefix = /*#__PURE__*/K.lift(L.prefix);
+	var prependOp = /*#__PURE__*/K.lift(L.prependOp);
 	var product = /*#__PURE__*/K.lift(L.product);
 	var productAs = /*#__PURE__*/K.lift(L.productAs);
 	var prop = /*#__PURE__*/K.lift(L.prop);
@@ -164,6 +166,8 @@
 	exports.Select = L.Select;
 	exports._ = L._;
 	exports.append = L.append;
+	exports.appendTo = L.appendTo;
+	exports.assignTo = L.assignTo;
 	exports.children = L.children;
 	exports.complement = L.complement;
 	exports.elems = L.elems;
@@ -181,6 +185,7 @@
 	exports.multikeyed = L.multikeyed;
 	exports.negate = L.negate;
 	exports.optional = L.optional;
+	exports.prependTo = L.prependTo;
 	exports.querystring = L.querystring;
 	exports.removeOp = L.removeOp;
 	exports.reverse = L.reverse;
@@ -196,6 +201,7 @@
 	exports.and = and;
 	exports.and1 = and1;
 	exports.any = any;
+	exports.appendOp = appendOp;
 	exports.applyAt = applyAt;
 	exports.array = array;
 	exports.arrays = arrays;
@@ -295,6 +301,7 @@
 	exports.pickIn = pickIn;
 	exports.pointer = pointer;
 	exports.prefix = prefix;
+	exports.prependOp = prependOp;
 	exports.product = product;
 	exports.productAs = productAs;
 	exports.prop = prop;
