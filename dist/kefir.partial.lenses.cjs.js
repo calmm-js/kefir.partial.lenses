@@ -159,6 +159,7 @@ var unless = /*#__PURE__*/K.lift(L.unless);
 var unzipWith1 = /*#__PURE__*/K.lift(L.unzipWith1);
 var valueOr = /*#__PURE__*/K.lift(L.valueOr);
 var when = /*#__PURE__*/K.lift(L.when);
+var whereEq = /*#__PURE__*/K.lift(L.whereEq);
 var zipWith1 = /*#__PURE__*/K.lift(L.zipWith1);
 
 exports.FantasyFunctor = L.FantasyFunctor;
@@ -348,4 +349,5 @@ exports.unless = unless;
 exports.unzipWith1 = unzipWith1;
 exports.valueOr = valueOr;
 exports.when = when;
+exports.whereEq = whereEq;
 exports.zipWith1 = zipWith1;

@@ -189,5 +189,6 @@ export {uriComponent} from 'partial.lenses'
 export const valueOr = K.lift(L.valueOr)
 export {values} from 'partial.lenses'
 export const when = K.lift(L.when)
+export const whereEq = K.lift(L.whereEq)
 export {zero} from 'partial.lenses'
 export const zipWith1 = K.lift(L.zipWith1)
